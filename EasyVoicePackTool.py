@@ -34,7 +34,7 @@ info = {
     "version": "0.0.1",
     "description": "Let's Rock! Commander!",
     "languages": ["javascript"],
-    "author": "Westwood",
+    "author": "Trotsky1997 Coded.Music by©EA-WestWood",
     "gender": "female",
     "locale": "en"
 }
