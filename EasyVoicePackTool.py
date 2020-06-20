@@ -1,9 +1,8 @@
 import glob
 import json
 import os
-files = glob.glob("*")
-for i in glob.glob("*.py") + glob.glob("*.json")+glob.glob("*.jpg"):
-    files.remove(i)
+files = glob.glob("*.mp3")
+
 with open('./temp.json', "r") as f:
     temp = json.load(f, encoding="utf-8")
 mapper = {tuple(i["keywords"]): i['voices'][0][0:i['voices'][0].find('0')]
