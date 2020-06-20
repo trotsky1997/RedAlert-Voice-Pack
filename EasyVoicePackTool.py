@@ -11,7 +11,8 @@ mapper = {tuple(i["keywords"]): i['voices'][0][0:i['voices'][0].find('0')]
 keys = [i["keywords"] for i in temp["contributes"]]
 num = len(keys)
 for i, ix in enumerate(temp["contributes"]):
-    ix["voices"] = files[i * len(files) // len(keys):(i+1) * len(files) // len(keys)]
+    ix["voices"] = files[i * len(files) // len(keys)
+                                 :(i+1) * len(files) // len(keys)]
 
 for i, ix in enumerate(temp["contributes"]):
     for j, jx in enumerate(ix["voices"]):
@@ -40,4 +41,4 @@ info = {
 }
 os.remove('./manifest.json')
 with open('./manifest.json', "w+") as f:
-    json.dump(info, f)   
+    json.dump(info, f)
