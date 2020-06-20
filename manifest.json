@@ -1,12 +1,1 @@
-{
-  "name": "RedAlert",
-  "display-name": "RedAlert Voice Pack",
-  "avatar": "avatar.jpg",
-  "avatar-dark": "avatar-dark.jpg",
-  "version": "0.0.1",
-  "description": "Let's Rock! Commander!",
-  "languages": ["javascript"],
-  "author": "Trotsky1997 Coded.Music by©EA-WestWood",
-  "gender": "female",
-  "locale": "en"
-}
+{"name": "RedAlert-Voice-Pack", "display-name": "RedAlert Voice Pack", "avatar": "avatar.jpg", "avatar-dark": "avatar-dark.jpg", "version": "0.0.1", "description": "Let's Rock! Commander!", "languages": ["javascript"], "author": "Trotsky1997 Coded.Music by\u00a9EA-WestWood", "gender": "female", "locale": "en"}

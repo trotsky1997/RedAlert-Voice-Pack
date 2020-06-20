@@ -28,16 +28,16 @@ os.remove('./contributes.json')
 with open('./contributes.json', "w+") as f:
     json.dump(temp, f)
 info = {
-    "name": "RedAlert",
-    "display-name": "RedAlert Voice Pack",
-    "avatar": "avatar.jpg",
-    "avatar-dark": "avatar-dark.jpg",
-    "version": "0.0.1",
-    "description": "Let's Rock! Commander!",
-    "languages": ["javascript"],
-    "author": "Trotsky1997 Coded.Music by©EA-WestWood",
-    "gender": "female",
-    "locale": "en"
+  "name": "RedAlert-Voice-Pack", #文件夹名称
+  "display-name": "RedAlert Voice Pack", #语音包名称
+  "avatar": "avatar.jpg", #封面
+  "avatar-dark": "avatar-dark.jpg", #暗光风格封面
+  "version": "0.0.1", #版本号
+  "description": "Let's Rock! Commander!", #简介
+  "languages": ["javascript"], #在哪些编程环境下启用本语音包
+  "author": "Trotsky1997 Coded.Music by©EA-WestWood", #作者
+  "gender": "female", #发音性别
+  "locale": "en" #发音语言
 }
 os.remove('./manifest.json')
 with open('./manifest.json', "w+") as f:
