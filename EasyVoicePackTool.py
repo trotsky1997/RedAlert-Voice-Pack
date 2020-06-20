@@ -40,4 +40,4 @@ info = {
 }
 os.remove('./manifest.json')
 with open('./manifest.json', "w+") as f:
-    json.dump(info, f)
+    json.dump(info, f)   
