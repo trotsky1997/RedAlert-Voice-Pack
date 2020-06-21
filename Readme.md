@@ -7,6 +7,10 @@
 Female Voice pack, code licensed by MIT. Music copyright belongs to EA
 
 使用 EasyVoicePackTool 工具构建.
+## 语音包使用方法
+在`saekiraku.rainbow-fart\voice-packages`目录下克隆本仓库 `git clone https://github.com/trotsky1997/RedAlert-Voice-Pack`
+
+重启 `Rainbow Fart`
 
 ## 工具使用方法
 
